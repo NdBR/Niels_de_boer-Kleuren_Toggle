@@ -1,0 +1,48 @@
+.aside-nav{
+    box-sizing: border-box;
+    position: fixed;
+    top:60px;
+    left:-140px;
+    color: #1b1b1b;
+    height: fit-content;
+    width: 140px;
+    border:#1b1b1b solid 1px;
+    transition: .5s ease-in-out;
+
+    & ul{
+        margin: 0;
+        padding:0;
+    
+        & li{
+            line-height: 60px;
+            list-style: none;
+          
+            & :hover{
+                cursor: pointer;
+                font-size: 28px;
+            }
+        }
+        & span{
+            display: block;
+            height: 60px;
+            font-size: 25px;
+            padding-left: 15px;
+            text-transform: uppercase;
+        }
+    }
+}
+.white{
+    background-color: #F1F1F1;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}

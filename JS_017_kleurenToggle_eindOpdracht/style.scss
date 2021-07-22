@@ -1,0 +1,32 @@
+@import"./aside";
+
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.background-color-body{
+    background-color:#fff;
+}
+
+.wrapper-for-slide-out{
+    display: inline-block;
+} 
+.btn-toggle-nav{
+    width: 60px;
+    height: 60px;
+    background-image:url("image/hamburger_menu1.png") ;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:0 5px; 
+    z-index: 1000;
+    display: block;
+
+    &:hover{
+        cursor: pointer;
+        background-size: 90%;
+        transition: .2s ease-in-out;
+    }
+}
